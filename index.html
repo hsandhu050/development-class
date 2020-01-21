@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Welcome Back </title>
+        <script>
+            function change() {
+                var na = ["Harsimran", "Mr. Sandhu", "Sorry WHO DISS", "Mike", "John", "Mr. President"];
+                var final = na[Math.floor(Math.random() * na.length)];
+                var col = ["red", "blue", "orange", "black"];
+                var color = col[Math.floor(Math.random() * col.length)];
+                document.getElementById("main").innerHTML = '<span style="color:' + color + ';">' + final + '</span>';
+            };
+        </script>
+        <style>
+        .changename {
+            background-color: beige;
+            padding: 5px;
+            border-radius: 20%;
+            color: blue;
+        };
+        .hi{
+            padding:50px;
+
+        }
+        </style>
+    </head>
+    <body>
+        <h1> Hello <span id="main">$Name</span>, Welcome Back to your class </h1>
+        <div class="hi"><h2> So Let's get started.</h2></div>
+        <p>How many of you like colors? <em style="color:brown;">EVERYONE</div></em>
+        <br />
+            Anyways, let's change topic. or your name. <br /> Click below to change your name.
+            <button class="changename" onclick="change()">Click here</button>
+            
+            To know more about the creator of this awesome page, <a href="profile.html"> click here.</a>
+
+
+    </body>
+<html>

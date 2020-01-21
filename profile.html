@@ -1,0 +1,49 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title> Profile - Mr. Sandhu </title>
+    <script>
+        function changeimg() {
+            var na = ["img/google.jpg", "img/img2.jpg", "img/IMG_1376.JPG", "img/picture.jpg"];
+            var final = na[Math.floor(Math.random() * na.length)];
+            var height = 400;
+            var width = 300;
+            if (final == "img/IMG_1376.JPG") {
+                height = 500;
+
+            }
+            document.getElementById("mainimage").innerHTML = '<img src="' + final + '" style="height: ' + height +
+                'px; width: ' + width + 'px;" />';
+
+        };
+    </script>
+    <style>
+        .changeimg {
+            background-color: beige;
+            padding: 5px;
+            border-radius: 20%;
+            color: blue;
+        }
+
+        ;
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">About me</h1> <br />
+    <div id="mainimage"><img src="img/google.jpg" style="height: 400px; width: 300px;" /> </div> 
+    <br />
+    <button class="changeimg" onclick="changeimg()">Show more</button>
+    <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Name: Harsimran Sandhu</h2>
+    <ul> Few things about me
+        <li>Age: 20</li>
+        <li>Work : Google</li>
+        <li>Time in Canada: 16 months</li>
+
+    </ul>
+
+
+</body>
+<html>
