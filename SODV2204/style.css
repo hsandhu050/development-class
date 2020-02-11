@@ -1,0 +1,146 @@
+body{
+    background-image: url("img/kobe-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu{
+    width: 100%;
+    background: #7061d4;
+    margin: 0;
+}
+
+#menu::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+#menu a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#logo{
+    float: left;
+    padding: 10px 0;
+    padding-left: 2%;
+}
+
+#menu_item{
+    float: right;
+    display: block;
+    padding-right: 4%;
+    padding-top: 1%;
+}
+
+#menu_item a:hover{
+    color: white;
+}
+
+#menu_item ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu_item li{
+    display: inline-block;
+    margin-left: 75px;
+    padding-top: 25px;
+    position: relative;
+}
+
+.rip{
+    color: white;
+    font-size: 25px;
+}
+
+
+.bio{
+    color: white;
+    font-size: 18px;
+}
+
+.yt{
+    color: white;
+    font-size: 18px;
+}
+
+h5{
+    color: white;
+}
+
+h5 a{
+    color: white;
+    float: right;
+    width: 50%;
+}
+
+h5 a:hover{
+    color: rgb(78, 162, 231);
+}
+
+table.gamescore{
+    border: 1px solid #1C6EA4;
+    background: rgb(211, 173, 4);
+    padding: 10px;
+    width: 60%;
+    opacity: 90%;
+    text-align: left;
+}
+
+table.gamescore td, table.gamescore th{
+    border: 1px solid black;
+    padding: 5px 20px;
+}
+
+table.gamescore tbody td {
+    font-size: 17px;
+}
+
+table.gamescore thead {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+#contactus{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+}
+
+textarea{
+    padding: 10px;
+    margin: 10px;
+    height: 200px; 
+    width: 25%
+}
+
+button{
+    padding: 13px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #7061d4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    padding: 13px;
+    margin: 10px;
+    border-radius: 5px;
+    background: white;
+    color: #7061d4;
+    border: none;
+    cursor: pointer;
+}
