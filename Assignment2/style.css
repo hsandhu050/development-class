@@ -1,0 +1,152 @@
+@import url(//db.onlinewebfonts.com/c/c911c01f112f8ee801034653438c4d0e?family=FetteEngD);
+@import url(//db.onlinewebfonts.com/c/7f1b0c2e3e42d2bdf997cb025b07a6e5?family=P22SpeysideW01-ProLight);
+
+body{
+	font-family: "P22SpeysideW01-ProLight", "FetteEngD";
+	margin:0;
+}
+
+header{
+	font-family: "FetteEngD";
+}
+header h1{
+	background: yellow;
+	color: #373737;
+	text-align: center;
+	font-size: 30px;
+	padding: 15px;
+	text-transform: uppercase;
+	margin:0;
+}
+
+nav{
+	background: #565656;
+	margin: 0px;
+}
+
+nav::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+
+nav a{
+    color: white;
+    text-transform: lowercase;
+	font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover{
+	color: blue;
+}
+
+header{
+	background-image: url("images/talking_heads-speaking_in_tongues.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+header section{
+	background: rgba(0,0,0,.75);
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+header section h1{
+	background: none;
+	color: yellow;
+	font-size: 3em;
+}
+
+header section h2{
+	color: white;
+	font-size: 2em;
+}
+
+header section h3{
+	color: rgb(156, 154, 154);
+	font-size: 1.5em;
+}
+
+header section h3 strong{
+	color: rgb(190, 178, 178);
+}
+
+article{
+	/*display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;*/
+	display: flex;
+	flex-direction: column;
+
+}
+
+article aside{
+	flex: .5;
+	width: 350px;
+}
+
+
+article section:nth-child(odd) {
+	margin-left: 40px;
+}
+
+article aside section, article footer section{
+	border: none;
+}
+
+
+article section{
+	border-left: 5px yellow solid;
+	flex: 1.5;
+	min-height: 50px;
+	overflow: auto;
+}
+
+
+article section h2{
+	background: yellow;
+	padding: 10px;
+	width: 100px;
+}
+
+article section p{
+	padding-left: 15px;
+}
+
+
+img{
+	/*temporary*/
+	height: 250px;
+	width: 250px;
+}
+
+#cite1 {
+	font-size: 0.9em;
+	border-top: 5px yellow solid;
+	padding: 10px;
+}
+
+#cite1 a{
+	background-color: yellow;
+	color: black;
+}
