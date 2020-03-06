@@ -1,0 +1,26 @@
+@font-face {font-family: "FetteEngD";
+    src: url("https://db.onlinewebfonts.com/t/c911c01f112f8ee801034653438c4d0e.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/c911c01f112f8ee801034653438c4d0e.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/c911c01f112f8ee801034653438c4d0e.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/c911c01f112f8ee801034653438c4d0e.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/c911c01f112f8ee801034653438c4d0e.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/c911c01f112f8ee801034653438c4d0e.svg#FetteEngD") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "P22SpeysideW01-ProLight";
+    src: url("https://db.onlinewebfonts.com/t/7f1b0c2e3e42d2bdf997cb025b07a6e5.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/7f1b0c2e3e42d2bdf997cb025b07a6e5.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/7f1b0c2e3e42d2bdf997cb025b07a6e5.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/7f1b0c2e3e42d2bdf997cb025b07a6e5.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/7f1b0c2e3e42d2bdf997cb025b07a6e5.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/7f1b0c2e3e42d2bdf997cb025b07a6e5.svg#P22SpeysideW01-ProLight") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "DIN 1451 Engschrift";
+    src: url("https://db.onlinewebfonts.com/t/8cbba0658ca650dee8ffe81479217c13.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/8cbba0658ca650dee8ffe81479217c13.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/8cbba0658ca650dee8ffe81479217c13.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/8cbba0658ca650dee8ffe81479217c13.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/8cbba0658ca650dee8ffe81479217c13.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/8cbba0658ca650dee8ffe81479217c13.svg#DIN 1451 Engschrift") format("svg"); /* iOS 4.1- */
+}
